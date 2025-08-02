@@ -1,7 +1,7 @@
 
 import pandas as pd
 
-def load_synergy_benchmarks(file_path="/Users/romaincalfati/Documents/HEC M1/Finance application/Python Stuff/mna_deals.xlsx"):
+def load_synergy_benchmarks(file_path="mna_deals.xlsx"):
     df = pd.read_excel(file_path)
 
     # Calcul des médianes
